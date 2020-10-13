@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
+// import DarkModeContext from "../../../common/contexts/DarkMode";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon } from '@fortawesome/free-solid-svg-icons';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import '../styles/_app.scss';
 
 function App() {
